@@ -1,0 +1,16 @@
+---
+layout: default
+title: fruit-junk
+---
+
+<ul class="fruit-junk">
+  {% for image in site.data.image-types %}
+    {% if image.folder contains 'fruit-junk' %}
+    <li>
+      <img src="{{site.baseurl}}{{image.url}}" alt="">
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+{% include fruit-junks.html %}

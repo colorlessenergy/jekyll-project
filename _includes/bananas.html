@@ -1,0 +1,8 @@
+{% for banana in site.data.image-types %}
+  {% if banana.folder contains 'banana' %}
+    {% if banana.title contains 'The Banana' %}
+      <h1 class="header">{{banana.title}}</h1>
+    {% endif %}
+      <p class="paragraph">{{banana.content}}</p>
+  {% endif %}
+{% endfor %}

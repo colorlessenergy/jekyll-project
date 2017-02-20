@@ -1,0 +1,15 @@
+---
+layout: default
+title: banana
+---
+
+<ul class="banana">
+  {% for image in site.data.image-types %}
+    {% if image.folder contains 'banana' %}
+      <li>
+        <img src="{{site.baseurl}}{{image.url}}" alt="">
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{% include bananas.html %}

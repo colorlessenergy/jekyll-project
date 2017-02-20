@@ -1,0 +1,26 @@
+- title: The Banana
+  url: images/banana1.png
+  folder: banana
+  content: 'Banana - A long curved fruit that grows in clusters and has soft pulpy flesh and yellow skin when ripe.'
+
+- url: images/banana2.jpg
+  folder: banana
+  content: 'Banana - Is the best fruit!'
+
+- title: Fruit - Junk
+  url: images/watermelon.jpg
+  folder: fruit-junk
+  content: 'Watermelon - The large melonlike fruit of a plant of the gourd family, with smooth green skin, and watery juice.'
+
+- url: images/cupcake.png
+  folder: fruit-junk
+  content: 'Cupcake - A small cake baked in a cup-shaped container and typically iced.'
+
+- title: Birds
+  url: images/rubber-ducks.jpg
+  folder: rubber-ducks
+  content: 'Rubber Duck - A Rubber Duck is a toy shaped like a stylized duck, generally yellow with a flat base.'
+
+- url: images/sparrow.jpg
+  folder: rubber-ducks
+  content: 'Sparrow - a small finchlike Old World bird related to the weaverbirds, typically with brown and gray plumage.'

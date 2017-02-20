@@ -1,0 +1,8 @@
+{% for bird in site.data.image-types %}
+  {% if bird.folder contains 'rubber-ducks' %}
+    {% if bird.title contains 'Birds' %}
+      <h1 class="header">{{bird.title}}</h1>
+    {% endif %}
+      <p class="paragraph">{{bird.content}}</p>
+  {% endif %}
+{% endfor %}

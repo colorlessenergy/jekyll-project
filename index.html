@@ -1,0 +1,16 @@
+---
+layout: default
+title: bird
+---
+
+<ul class="home">
+  {% for image in site.data.image-types %}
+    {% if image.folder contains 'rubber-ducks' %}
+    <li>
+      <img src="{{site.baseurl}}{{image.url}}" alt="">
+    </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+{% include home.html %}
