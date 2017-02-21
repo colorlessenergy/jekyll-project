@@ -20,8 +20,7 @@ img {
 }
 
 .current {
-  background-color: blue;
-  color: white;
+  color: #16B5A0;
 }
 
 .header {
@@ -29,11 +28,29 @@ img {
 }
 
 .home {
-  background-color: green;
+  background-color: #006613;
 }
 
 .fruit-junk {
-  background-color: black;
+  background-color: #181A18;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.nav li {
+  margin: 0 5px;
+}
+
+.nav li a {
+  text-decoration: none;
+}
+
+.not-active {
+  color: #000;
 }
 
 .paragraph {
