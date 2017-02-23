@@ -3,20 +3,36 @@ html, body {
   padding: 0;
 }
 
+footer {
+  background-color: #003366;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
-img {
-  height: 250px;
-  width: 250px;
-}
 
 .banana {
   background-color: yellow;
 }
+
+.content {
+  background-color: #003366;
+  color: #6e7075;
+}
+
+.content p:last-child {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
 
 .current {
   color: #16B5A0;
